@@ -129,13 +129,13 @@ button {
 
 .portfolio {
   height: 770px;
-  background-color: yellow;
+  background-color:black;
   position: relative;
 }
 
 .portfolio-1 {
   height: 360px;
-  background-color: red;
+  background-color:black;
   color: white;
   display: flex;
   justify-content: space-around;
@@ -143,7 +143,7 @@ button {
 
 .portfolio-2 {
   height: 360px;
-  background-color: blue;
+  background-color: black;
   color: white;
   display: flex;
   justify-content: space-around;
