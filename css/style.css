@@ -1,194 +1,209 @@
 html {
-  scroll-behavior: smooth;
-}
-
-.menu {
-  justify-content: flex-end;
-  background-color: aqua;
-  position: fixed;
-  width: 1350px;
-  z-index: 1;
-}
-
-.item {
-  font-size: 20px;
-}
-
-.home,
-.about {
-  display: flex;
-  height: 620px;
-  background-color: black;
-}
-
-.item-1 {
-  width: 620px;
-  position: relative;
-}
-
-.item-2 {
-  position: relative;
-  top: 120px;
-  left: 80px;
-  width: 620px;
-  height: 550px;
-}
-
-.image {
-  position: relative;
-  left: 120px;
-  width: 400px;
-  height: 400px;
-}
-
-h1 {
-  position: relative;
-  top: 120px;
-  left: 50px;
-  font-family: "Lucida Console", "Courier New", monospace;
-  color: white;
-}
-
-.heading {
-  color: white;
-}
-
-.item-3 {
-  position: relative;
-  top: 120px;
-  left:-135px;
-  color: #4070f4;
-}
-
-.item-3::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 80%;
-  background-color: black;
-  /*border-left: 2px solid #4070f4;*/
-  animation: animate 4s steps(12) infinite;
-}
-
-@keyframes animate {
-
-  40%,
-  60% {
-    left: 100%;
+    scroll-behavior: smooth;
   }
-
-  100% {
-    left: 0%;
+  
+  .menu {
+    justify-content: flex-end;
+    background-color: aqua;
+    position: fixed;
+    width: 1350px;
+    z-index: 1;
   }
-}
-
-p {
-  position: relative;
-  top: 120px;
-  left: 50px;
-  color: white;
-}
-
-button {
-  position: relative;
-  top: 120px;
-  left: 50px;
-}
-
-.social-button {
-  position: relative;
-  top: 100px;
-}
-
-.about {
-  font-family: "Lucida Console", "Courier New", monospace;
-  color: white;
-}
-.services {
-  display: flex;
-  height: 650px;
-  background-color: black;
-}
-.card {
-  position: relative;
-  left: 80px;
-}
-
-.card-text {
-  top: 0;
-  left: 0;
-  color: black;
-}
-
-.services {
-  display: flex;
-  justify-content: space-around;
-}
-
-.portfolio {
-  height: 770px;
-  background-color:black;
-  position: relative;
-}
-
-.portfolio-1 {
-  height: 360px;
-  background-color:black;
-  color: white;
-  display: flex;
-  justify-content: space-around;
-}
-
-.portfolio-2 {
-  height: 360px;
-  background-color: black;
-  color: white;
-  display: flex;
-  justify-content: space-around;
-}
-
-.portfolio-1-image-1 {
-  top: 20px;
-  position: relative;
-}
-
-.portfolio-1-image-2 {
-  top: 20px;
-  position: relative;
-}
-
-.portfolio-1-image-3 {
-  top: 20px;
-  position: relative;
-}
-
-.portfolio-1-image-4 {
-  top: 20px;
-  position: relative;
-}
-
-.portfolio-1-image-5 {
-  top: 20px;
-  position: relative;
-}
-
-.portfolio-1-image-6 {
-  top: 20px;
-  position: relative;
-}
-
-.contact {
-  background-color: black;
-  height:620px;
-}
-
-h2 {
-  top: 5px;
-  text-align: center;
-}
-
-.card-img-top {
-  height: 150px;
-}
+  
+  .item {
+    font-size: 20px;
+  }
+  
+  .home,
+  .about {
+    display: flex;
+    height: 620px;
+    background-color: black;
+  }
+  
+  .item-1 {
+    width: 620px;
+    position: relative;
+  }
+  
+  .item-2 {
+    position: relative;
+    top: 120px;
+    left: 80px;
+    width: 620px;
+    height: 550px;
+  }
+  
+  .image {
+    position: relative;
+    left: 120px;
+    width: 400px;
+    height: 400px;
+  }
+  
+  h1 {
+    position: relative;
+    top: 120px;
+    left: 50px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: white;
+  }
+  
+  .heading {
+    color: white;
+  }
+  
+  .item-3 {
+    position: relative;
+    top: 120px;
+    left:-135px;
+    color: #4070f4;
+  }
+  
+  .item-3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 80%;
+    background-color: black;
+    /*border-left: 2px solid #4070f4;*/
+    animation: animate 4s steps(12) infinite;
+  }
+  
+  @keyframes animate {
+  
+    40%,
+    60% {
+      left: 100%;
+    }
+  
+    100% {
+      left: 0%;
+    }
+  }
+  
+  p {
+    position: relative;
+    top: 120px;
+    left: 50px;
+    color: white;
+  }
+  
+  button {
+    position: relative;
+    top: 120px;
+    left: 50px;
+  }
+  
+  .social-button {
+    position: relative;
+    top: 100px;
+  }
+  
+  .about {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: white;
+  }
+  .services {
+   
+    height: 650px;
+    background-color: black;
+  }
+  .services-1{
+    display: flex;
+  }
+  .card {
+    position: relative;
+    left: 80px;
+  }
+  
+  .card-text {
+    top: 0;
+    left: 0;
+    color: black;
+  }
+  
+  .services-1{
+    display: flex;
+    justify-content: space-around;
+    height: 360px;
+    width:1200px;
+  }
+  .services-heading{
+    position:relative;
+    left:5px;
+    color:white;
+  }
+  
+  .portfolio {
+    height: 770px;
+    background-color:black;
+    position: relative;
+  }
+  .portfolio-heading{
+    position:relative;
+    left:75px;
+    color:white;
+  }
+  
+  .portfolio-1 {
+    height: 360px;
+    background-color:black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .portfolio-2 {
+    height: 360px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .portfolio-1-image-1 {
+    top: 20px;
+    position: relative;
+  }
+  
+  .portfolio-1-image-2 {
+    top: 20px;
+    position: relative;
+  }
+  
+  .portfolio-1-image-3 {
+    top: 20px;
+    position: relative;
+  }
+  
+  .portfolio-1-image-4 {
+    top: 20px;
+    position: relative;
+  }
+  
+  .portfolio-1-image-5 {
+    top: 20px;
+    position: relative;
+  }
+  
+  .portfolio-1-image-6 {
+    top: 20px;
+    position: relative;
+  }
+  
+  .contact {
+    background-color: black;
+    height:620px;
+  }
+  
+  h2 {
+    top: 5px;
+    text-align: center;
+  }
+  
+  .card-img-top {
+    height: 150px;
+  }
